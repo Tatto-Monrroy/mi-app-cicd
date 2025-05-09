@@ -1,0 +1,15 @@
+{
+  "name": "mi-app-cicd",
+  "version": "1.0.0",
+  "description": "App básica para practicar CI/CD",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Sin pruebas definidas aún\" && exit 0"
+  },
+  "author": "Ervin Monrroy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
