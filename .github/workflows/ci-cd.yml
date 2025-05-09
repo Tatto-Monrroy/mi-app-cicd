@@ -23,3 +23,5 @@ jobs:
 
       - name: Ejecutar pruebas
         run: npm test
+ env:
+  DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
